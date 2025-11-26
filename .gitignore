@@ -1,0 +1,41 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse/IDE files
+.classpath
+.project
+.settings/
+.metadata/
+*.classpath
+*.project
+
+# Build dirs
+bin/
+target/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Tomcat
+logs/
+temp/
+work/
+
+# User-specific
+*.iml
+*.ipr
+*.iws
+
+# Archive
+*.zip
+*.tar.gz
+
+# Ignore local credentials (do not commit passwords)
+src/connection/secret.properties
